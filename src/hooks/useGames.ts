@@ -1,14 +1,13 @@
 import { GameQuery } from "../App";
 import useData from "./useData";
-import { Genre } from "./UseGenres";
 
-interface Platform {
+export interface Platform {
   id: number;
   name: string;
   slug: string;
 }
 
-interface Game {
+export interface Game {
   id: number;
   name: string;
   background_image: string
